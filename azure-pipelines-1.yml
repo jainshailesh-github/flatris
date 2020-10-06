@@ -18,5 +18,5 @@ steps:
 - script: |
     npm install
     npm run build
-    env-cmd --verbose --silent yarn
+    env-cmd --verbose --silent
   displayName: 'npm install and build'
